@@ -436,10 +436,10 @@ function reward5() { window.location.href = "https://www.youtube.com/watch?v=mx8
 
 
 //dev function (ez level up) 
-// function levelUp() {
-//   document.cookie = "BattlePass=1000"
-//   location.reload()
-// }
+function levelUp() {
+  document.cookie = "BattlePass=1000"
+  location.reload()
+}
 
 // -----------------------------------------------------------------------------------------------------------------------------
 
