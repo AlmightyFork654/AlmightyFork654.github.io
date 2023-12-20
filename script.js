@@ -7,7 +7,7 @@ let isCompeting = false;
 let lives = 3;
 
 //battlepass xp
-if (document.URL == "https://eindwebsite-blok-2-nathanversteeg.5vwowebsite2324.repl.co/battlepass.html") {
+if (document.URL == "https://almightyfork654.github.io/battlepass.html") {
   document.addEventListener("DOMContentLoaded", function() {
     let BattlePassXP = document.getElementById("BattlePass");
     BattlePassXP.value = getCookie("BattlePass");
@@ -48,13 +48,13 @@ function getCookie(name) {
 }
 
 // checks if document is test.html, compete.html or battlepass.html
-if (document.URL == "https://eindwebsite-blok-2-nathanversteeg.5vwowebsite2324.repl.co/test.html") {
+if (document.URL == "https://almightyfork654.github.io/test.html") {
   isTesting = true;
 }
-if (document.URL == "https://eindwebsite-blok-2-nathanversteeg.5vwowebsite2324.repl.co/compete.html") {
+if (document.URL == "https://almightyfork654.github.io/compete.html") {
   isCompeting = true;
 }
-if (document.URL == "https://eindwebsite-blok-2-nathanversteeg.5vwowebsite2324.repl.co/battlepass.html") {
+if (document.URL == "https://almightyfork654.github.io/battlepass.html") {
   BPPage = true;
 }
 
