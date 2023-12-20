@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from eindwebsite-blok-2-nathanversteeg.5vwowebsite2324.repl.co/battlepass.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Dec 2023 19:07:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/png" href="resources/pi.png" />
+  <title>π Trainer - Battle Pass</title>
+  <link href="battlepass.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="setXP()">
+  <script src="script.js"></script>
+
+  <div class="top_bar">
+    <img id="pi" src="resources/pi.png" alt="pi" onclick="levelUp()">
+    <h1 id="title"> Trainer</h1>
+  </div>
+
+  <div class="bar">
+    <a class="waypoints" href="index.html">Home</a>
+    <a class="waypoints" href="trainer.html"><b>π</b>-Trainer</a>
+    <a class="waypoints" href="test.html">Test</a>
+    <a class="waypoints" href="compete.html">Compete</a>
+    <a class="waypoints" href="challenges.html">CHALLENGES</a>
+    <a class="waypoints" href="battlepass.html">BATTLE PASS</a>
+  </div>
+
+  <div class="inline">
+
+    <div class="button_box">
+      <p id="counter1">0/0 XP</p>
+    </div>
+    <div class="button_box">
+      <p id="counter2">0/250</p>
+    </div>
+    <div class="button_box">
+      <p id="counter3">0/500</p>
+    </div>
+    <div class="button_box">
+      <p id="counter4">0/750</p>
+    </div>
+    <div class="button_box">
+      <p id="counter5">0/1000</p>
+    </div>
+
+  </div>
+
+  <progress id="BattlePass" value="0" max="1000"></progress>
+
+  <div id="inline">
+
+    <div class="button_box">
+      <p>YEH a Reward</p>
+      <button class="claim_button" onclick="reward1()">Claim</button>
+    </div>
+
+  </div>
+
+</body>
+
+
+<!-- Mirrored from eindwebsite-blok-2-nathanversteeg.5vwowebsite2324.repl.co/battlepass.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Dec 2023 19:07:59 GMT -->
+</html>

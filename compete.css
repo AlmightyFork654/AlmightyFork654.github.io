@@ -1,0 +1,207 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Burbank;
+  background-color: #f5eadb;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Burbank;
+  src: url(resources/burbank.woff2);
+}
+
+.title {
+  background-color: #a0cbd9;
+  padding: .7%;
+  margin-top: .8%;
+  margin-bottom: 1%;
+  margin-right: .4%;
+  margin-left: .2%;
+  border-radius: 25px;
+  font-size: 4.2vw;
+  width: 100%;
+}
+
+.pi {
+  background-color: #a0cbd9;
+  padding: .7%;
+  margin-top: .8%;
+  margin-bottom: 1%;
+  margin-right: .2%;
+  margin-left: .4%;
+  border-radius: 25px;
+  width: 5vw;
+}
+
+.top_bar {
+  display: inline-flex;
+  width: 100%
+}
+
+.subtitle {
+  width: 40%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  border-bottom: .1vw solid #a0cbd9;
+  border-radius: 10px;
+  font-size: 3vw;
+}
+
+.text {
+  font-size: 1.5vw;
+  padding: .7%;
+  margin-top: .8%;
+  margin-bottom: 1%;
+  margin: auto;
+  width: 80%;
+}
+
+.bar {
+  min-width: 40%;
+  display: inline-block;
+  padding-left: .4%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+}
+
+.waypoints {
+  font-size: 2vw;
+  text-decoration: none;
+  color: #363636;
+  transition-duration: 0.1s;
+  min-width: 9%;
+  float: left;
+  text-align: center;
+}
+
+.waypoints:hover {
+  font-size: 2.2vw;
+  color: #404040;
+  background-color: #ffd48a;
+  border-radius: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  padding-right: 11%;
+  padding-left: 11%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  margin-right: 1%;
+  margin-left: 1%;
+  font-size: 260%;
+  font-family: Burbank;
+  color: #404040;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("resources/button.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  transition-duration: 0.1s;
+}
+
+.button:hover {
+  background-size: 104%;
+  color: #ddf2fd;
+}
+
+.box {
+  margin: auto;
+  width: 40%;
+  min-width: 252px;
+}
+
+
+.reset {
+  margin-right: 2%;
+  margin-left: 2%;
+  font-size: 1.4vw;
+  font-family: Burbank;
+  color: #404040;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("resources/button_reset.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  transition-duration: 0.1s;
+  height: 4vw;
+  width: 6vw;
+}
+
+.reset:hover {
+  background-size: 100%;
+  color: #fdfddd;
+}
+
+.info_bar{
+  text-align: center;
+  font-size: 1vw;
+  margin-bottom: -2vw;
+}
+
+/* #een {
+  font-size: 400%;
+  color: #404040;
+}
+
+#twee {
+  font-size: 400%;
+  color: #404040;
+}
+
+#drie {
+  font-size: 600%;
+  color: #bc8629;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+#vier {
+  font-size: 400%;
+  color: #404040;
+}
+
+#vijf {
+  font-size: 400%;
+  color: #404040;
+} */
+
+#myEen {
+  font-size: 6vw;
+  color: #c9a059;
+}
+
+#myTwee {
+  font-size: 6vw;
+  color: #c9a059;
+}
+
+#myDrie {
+  font-size: 7vw;
+  color: #bc8629;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#myVier {
+  font-size: 4vw;
+  color: #c9a059;
+}
+
+#myVijf {
+  font-size: 4vw;
+  color: #c9a059;
+}
